@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#feh --randomize --no-fehbg --bg-fill ~/Images/personal
+feh --no-fehbg --bg-fill "$(find ~/Images/personal -type f | shuf -n 1)"
